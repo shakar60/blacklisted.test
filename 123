@@ -109,7 +109,6 @@ game.Players.PlayerAdded:Connect(function(player)
       player:Kick("Blud Your Blacklisted")
   end
 end)
-2050503403
 ------------------------------------------------------------------------------------------------------------------------
 
 --discord server
