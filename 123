@@ -103,6 +103,13 @@ game.Players.PlayerAdded:Connect(function(player)
       player:Kick("Blud Your Blacklisted")
   end
 end)
+local blacklist = {2050503403}
+game.Players.PlayerAdded:Connect(function(player)
+    if table.find(blacklist,player.UserId) then
+      player:Kick("Blud Your Blacklisted")
+  end
+end)
+2050503403
 ------------------------------------------------------------------------------------------------------------------------
 
 --discord server
